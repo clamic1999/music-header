@@ -1,0 +1,67 @@
+@media (max-width: 912px){
+    
+    .nav-container{
+        
+        background-color: lightcoral;
+    }
+    .tog{
+        position: relative;
+        right: 200px;
+    }
+    ul{
+        position: fixed;
+        width: 25%;
+        top: 150px;
+        right: -250px;
+    }
+    .navlinks a{
+        position: relative;
+        top: 200px;
+        line-height: 80px;
+    }
+    .navlinks a:hover{
+        color: white;
+        border-bottom: 2px solid rgba(110, 235, 94, 0.877);
+    }
+}
+
+@media (max-width: 767px){
+    .tog{
+        height: 70px;
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 420px){
+    .logo{
+        height: 80px;
+        width: 130px;
+        position: relative;
+        top: 30px;
+    }
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
+    .tog{
+        position: relative;
+        width: 150px;
+        top: 20px;
+        right: 120px;
+    }
+    .btn1{
+        padding: 5px 10px;
+        position: relative;
+        left: 70px;
+    }
+    .img1{
+        height: 30px;
+        width: 40px;
+        position: relative;
+        left: 90px;
+    }
+    ul{
+        width: 40%;
+    }
+}
