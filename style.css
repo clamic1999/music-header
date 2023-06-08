@@ -76,8 +76,8 @@ header{
     height: 70px;
     width: 25%;
     position: relative;
-    right: 50px;  
-    border: 2px solid black ;
+    right: 100px;  
+    
 }
 #check{
     display: none;
@@ -92,7 +92,7 @@ ul{
     width: 20%;
     height: 84%;
     background-color: var(--ul-color);
-    top: 100px;
+    top: 150px;
     right: -100%;
     text-align: center;
     font-size: var(--h4-font);
@@ -102,7 +102,7 @@ ul{
 }
 .navlinks a{
     position: relative;
-    top: 150px;
+    top: 100px;
     color: yellow;
 }
 .navlinks ul li{
