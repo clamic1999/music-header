@@ -98,7 +98,7 @@
 
     /* services media start */
     .SERVICES-CONTAINER{
-        height: 87rem;
+        height: 100rem;
     }
     .top1{
         height: 110px;
@@ -137,9 +137,9 @@
         top: 15px;
     }
     .head2{
-        height: 90px;
+        height: 100px;
         position: relative;
-        top: 18px;
+        top: 25px;
     }
 
     /* services media end */
