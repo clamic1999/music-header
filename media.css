@@ -1,4 +1,13 @@
 @media only screen and (min-width: 250px) and (max-width:912px){
+
+
+    /* header media start*/
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
     .nav-container{
         
         background-color: lightcoral;
@@ -35,104 +44,55 @@
         position: fixed;
         top: 150px;
     }
-}
 
-/* @media (max-width: 912px){ 
-    
-    .nav-container{
-        
-        background-color: lightcoral;
-    }
-    .tog{
-        position: relative;
-        right: 200px;
-    }
-    ul{
-        position: fixed;
-        width: 25%;
-        top: 150px;
-        right: -250px;
-    }
-    .navlinks a{
-        position: relative;
-        top: 200px;
-        line-height: 80px;
-    }
-    .navlinks a:hover{
-        color: white;
-        border-bottom: 2px solid rgba(110, 235, 94, 0.877);
-    }
-}
+    /* header media end */
 
-@media (max-width: 767px){
-    .tog{
-        height: 70px;
-        width: 30%;
-    }
-}
 
-@media (max-width: 500px){
-    .logo{
-        height: 50px;
-        width: 130px;
+    /* home media start */
+    .left1{
+        height: 33%;
+        width: 85%;
         position: relative;
         top: 30px;
+        left: 30px;
     }
-    .logo img{
+    .left1 h1{
+        position: relative;
+        top: 5%;
+        left: 30px;
+        font-size: 30px;
+    }
+    .left1 p{
+        width: 80%;
+        position: relative;
+        top: 7%;
+        left: 30px;
+        justify-content: center;
+        font-size: 17px;
+    }
+    .btn2{
+        position: relative;
+        top: 8%;
+        left: 30px;
+        font-size: var(--p-font);
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        padding: 5px 10px;
+    }
+    .ludo .right1{
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        top: 38%;
+        left: 50px;
+        border: 2px solid black;
+    }
+    .right1 img{
         height: 100%;
         width: 100%;
     }
-    .tog{
-        position: relative;
-        width: 150px;
-        top: 20px;
-        right: 120px;
-    }
-    .btn1{
-        padding: 5px 10px;
-        position: relative;
-        left: 70px;
-    }
-    .img1{
-        height: 30px;
-        width: 40px;
-        position: relative;
-        left: 90px;
-    }
-    ul{
-        width: 40%;
-    }
+
+    /* home media end */
 }
 
-@media (max-width: 420px){
-    .logo{
-        height: 80px;
-        width: 130px;
-        position: relative;
-        top: 30px;
-    }
-    .logo img{
-        height: 100%;
-        width: 100%;
-    }
-    .tog{
-        position: relative;
-        width: 150px;
-        top: 20px;
-        right: 120px;
-    }
-    .btn1{
-        padding: 5px 10px;
-        position: relative;
-        left: 70px;
-    }
-    .img1{
-        height: 30px;
-        width: 40px;
-        position: relative;
-        left: 90px;
-    }
-    ul{
-        width: 40%;
-    }
-}*/

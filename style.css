@@ -22,7 +22,7 @@
 }
 html{
     scroll-padding-top: 150px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -122,7 +122,7 @@ ul{
 /* HEADER END */
 
 /* HOME START */
-/* .HOME-CONTAINER{
+.HOME-CONTAINER{
     height: 60rem;
     background-image: url(images/banner2.jpg);
     background-size: cover;
@@ -185,7 +185,7 @@ ul{
 }
 /* HOME END */
 
-/* SERVICES START 
+/* SERVICES START  */
 
 .SERVICES-CONTAINER{
     height: 42rem;
@@ -261,7 +261,7 @@ ul{
 }
 /* SERVICES END */
 
-/* ABOUT START 
+/* ABOUT START  */
 .ABOUT-CONTAINER{
     height: 35rem;
     background-color: blue;
@@ -317,7 +317,7 @@ ul{
 
 /* ABOUT END */
 
-/* SHOP START 
+/* SHOP START  */
 .SHOP-CONTAINER{
     height: 54rem;
     background-color: lightcoral;
@@ -367,8 +367,9 @@ ul{
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom: 150px;
-    
+    bottom: 170px;
+    font-weight: bolder;
+    color: yellow;  
 }
 .card3 .bar{
     display: none;
@@ -385,3 +386,387 @@ ul{
 
 
 /* SHOP END */
+
+
+/* CLIENT START */
+.CLIENT-CONTAINER{
+    height: 35rem;
+    background-image: url(images/banner.jpg);
+}
+.top2 h5{
+    font-size: var(--h4-font);
+}
+.card4{
+    height: 60px;
+    width: 100px;
+    position: relative;
+    left: 50%;
+    
+}
+.card4 img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 2px;
+}
+.slide{
+    height: 280px;
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.card6{
+    height: 30px;
+    width: 60px;
+    position: relative;
+    left: 4%;
+    top: 10px;
+    border: 2px solid black;
+}
+.card6 img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 2px;
+}
+.card7{
+    height: 170px;
+    width: 77.5%;
+    position: relative;
+    top: 25px;
+    left: 110px;
+    border: 2px solid black;
+}
+.card7 p{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.card8{
+    height: 30px;
+    width: 60px;
+    position: relative;
+    left: 88%;
+    top: 30px;
+    border: 2px solid black;
+}
+.card8 img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 2px;
+}
+
+.caro{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.slider{
+    display: inline-flex;
+    position: relative;
+    height: 100%;
+    width: 310%;
+    left: 0;
+    animation: 10s caro infinite;
+    transition: 1ms;
+    z-index: 1;
+}
+@keyframes caro{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    30%{
+        left: -102%;
+    }
+    50%{
+        left: -102%;
+    }
+    60%{
+        left: -206%;
+    }
+    80%{
+        left: -206%;
+    }
+
+}
+.slider input{
+    display: none;
+}
+.navigation-manual{
+    position: absolute;
+    width: 320px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+}
+.manual-btn{
+    border: 3px solid rgb(8, 233, 19);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 50px;
+    transition: 1s;
+}
+.manual-btn:hover{
+    background-color: rgb(0, 0, 0);
+}
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+#radio2:checked ~ .first{
+    margin-left: -0%;
+}
+#radio3:checked ~ .first{
+    margin-left: -2%;
+}
+
+.navigate-auto{ 
+    position: absolute;
+    
+    width: 320px;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 50px;
+    display: flex;
+}
+/* .navigate-auto div{
+    border: 3px solid rgb(69, 230, 6);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    margin-left: 10px;
+} */
+#radio1:checked ~ .navigate-auto .auto-btn1{
+    background-color: black;
+}
+#radio2:checked ~ .navigate-auto .auto-btn2{
+    background-color: black;
+}
+#radio3:checked ~ .navigate-auto .auto-btn3{
+    background-color: black;
+}
+
+
+
+
+/* CLIENT END */
+
+
+/* CONTACT START */
+.CONTACT-CONTAINER{
+    height: 42rem;
+    background-color: lightpink;
+}
+.top3{
+    height: 150px;
+    border: 2px solid black;
+}
+.top3 h1{
+    position: relative;
+    left: 70px;
+    font-size: var(--h1-font);
+}
+.top3 p{
+    position: relative;
+    left: 70px;
+    width: 80%;
+    font-size: var(--h4-font);
+}
+.table{
+    height: 70%;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 30px;
+    border: 2px solid black;
+}
+.tbl1{
+    height: 70px;
+    width: 80%;
+    position: relative;
+    top: 50px;
+    left: 10%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+.tbl2{
+    height: 70px;
+    width: 40%;
+    position: relative;
+    top: 70px;
+    left: 10%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+.tbl3{
+    height: 70px;
+    width: 80%;
+    position: relative;
+    top: 100px;
+    left: 10%;
+}
+.btn4{
+    position: relative;
+    top: 130px;
+    left: 43%;
+    font-size: var(--p-font);
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 40px;
+}
+::placeholder{
+    font-size: var(--h4-font);
+}
+textarea::placeholder{
+    padding: 1rem;
+    font-size: var(--h4-font);
+}
+
+
+/* CONTACT END */
+
+
+/* FOOTER START */
+.FOOTER-CONTAINER{
+    height: 36rem;
+    background-color: lawngreen;
+}
+.top4{
+    height: 90%;
+    border: 2px solid black;
+}
+.top4 img{
+    height: 100%;
+    width: 100%;
+}
+.fi1{
+    height: 15%;
+    width: 25%;
+    position: relative;
+    left: 6%;
+    bottom: 75%;
+    border: 2px solid black;
+}
+.fi1 img{
+    height: 100%;
+    width: 100%;
+}
+.fl0{
+    height: 42%;
+    width: 27%;
+    position: relative;
+    bottom: 70%;
+    left: 6%;
+    border: 2px solid black;
+}
+.fl0 .fl1{
+    height: 25%;
+    width: 100%;
+    position: relative;
+    border: 2px solid black;
+}
+.fl0 .fl1 h1{
+    font-size: var(--h1-font);
+    color: #ffffff;
+}
+.fl0 .fl2{
+    height: 65%;
+    width: 100%;
+    position: relative;
+    top: 5%;
+    border: 2px solid black;
+}
+.fl0 .fl2 p{
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 3rem;
+}
+.fl-1{
+    height: 42%;
+    width: 27%;
+    position: relative;
+    bottom: 112%;
+    left: 38%;
+    border: 2px solid black;
+}
+.fl-1 .fl3{
+    height: 25%;
+    width: 100%;
+    border: 2px solid black;
+}
+.fl-1 .fl3 h1{
+    font-size: var(--h1-font);
+    color: #ffffff;
+}
+.fl-1 .fl4{
+    height: 65%;
+    width: 100%;
+    position: relative;
+    top: 5%;
+    border: 2px solid black;
+}
+.fl-1 .fl4 p{
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 3rem;
+}
+.fl-2{
+    height: 42%;
+    width: 27%;
+    position: relative;
+    bottom: 154%;
+    left: 70%;
+    border: 2px solid black;
+}
+.fl-2 .fl5{
+    height: 25%;
+    width: 100%;
+    border: 2px solid black;
+}
+.fl-2 .fl5 h1{
+    font-size: var(--h1-font);
+    color: #ffffff;
+}
+.fl-2 .fl6{
+    height: 65%;
+    width: 100%;
+    position: relative;
+    top: 5%;
+    border: 2px solid black;
+}
+.fl-2 .fl6 .input{
+    padding: 20px 40px;
+}
+.fl-2 .fl6 .btn5{
+    padding: 20px 40px;
+    position: relative;
+    top: 10px;
+    font-size: var(--h4-font);
+    color: #ffffff;
+    background-color: #ff0000;
+    border: none;
+}
+.fl-2 .fl6 .btn5:hover{
+    cursor: pointer;
+    background-color: #9a145b;
+    transition: 1s;
+}
+.bot{
+    text-align: center;
+    position: relative;
+    top: 3%;
+    font-size: var(--h4-font);
+}
+
+/* FOOTER END */
