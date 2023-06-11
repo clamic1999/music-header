@@ -216,15 +216,90 @@
 
 
     /* client media start */
+    .top2{
+        height: 80px;
+    }
     .top2 .tit{
         font-size: 30px;
+    }
+    .top2 .tit1{
+        font-size: 15px;
+    }
+    .slide{
+        height: 350px;
+    }
+    .card6{
+        height: 20px;
+        width: 30px;
+        position: relative;
+        left: 10%;
+        top: 15px;
+    }
+    .card7{
+        height: 240px;
+        width: 77.5%;
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    .card7 p{
+        position: relative;
+        top: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .card8{
+        height: 20px;
+        width: 30px;
+        position: relative;
+        left: 86%;
+        top: 50px;
+    }
+    /* client media end */
+
+    /* contact media start */
+    .top3{
+        height: 250px;
+    }
+    .top3 h1{
+        position: relative;
+        left: 38px;
+        font-size: 30px;
+    }
+    .top3 p{
+        position: relative;
+        top: 10px;
+        left: 38px;
+        font-size: 18px;
+        width: 85%;
+    }
+    .table{
+        height: 70%;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        top: 5px;
+    }
+    .tbl1{
+        height: 55px;
+        width: 80%;
+        position: relative;
+        top: 30px;
+        left: 10%;
+    }
+    .tbl2{
+        height: 55px;
+        width: 80%;
+        position: relative;
+        
+        left: 10%;
+        margin-top: 20px;
     }
 
 
 
 
-    /* client media end */
-
+    /* contact media end */
 
 
 }
