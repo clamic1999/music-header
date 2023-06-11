@@ -393,6 +393,12 @@ ul{
     height: 35rem;
     background-image: url(images/banner.jpg);
 }
+.top2 .tit{
+    color: #ffffff;
+}
+.top2 .tit1{
+    color: #ffffff;
+}
 .top2 h5{
     font-size: var(--h4-font);
 }

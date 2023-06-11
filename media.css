@@ -143,5 +143,85 @@
     }
 
     /* services media end */
+
+    /* about media start */
+    .ABOUT-CONTAINER{
+        height: 50rem;
+    }
+    .sub2{
+        display: block;
+        
+    }
+    .sub2 .card2{
+        height: 45%;
+        width: 85%;
+        position: relative;
+        top: 10px;
+        left: -40px;
+        margin-top: 10px;
+    }
+    .card2 h1{
+        font-size: 30px;
+    }
+    .card2 p{
+        font-size: 15px;
+    }
+    .btn3{
+        position: relative;
+        top: 30px;
+        padding: 5px 10px;
+    }
+
+    /* about media end */
+
+    /* shop media start */
+    .SHOP-CONTAINER{
+        height: 100rem;
+    }
+    .top2 h1{
+        font-size: 30px;
+    }
+    .top2 p{
+        font-size: 15px;
+    }
+    .sub3{
+        height: 45%;
+        display: block;
+        position: relative;
+        top: 15px;
+    }
+    .card3{
+        height: 30%;
+        width: 80%;
+        position: relative;
+        top: 2%;
+        left: 15px;
+        margin-top: 20px;
+    }
+    .sub4{
+        height: 45%;
+        display: block;
+        position: relative;
+        top: 15px;
+    }
+    .card3:hover .bar{
+        position: relative;
+        bottom: 120px;
+    }
+    /* shop media end */
+
+
+    /* client media start */
+    .top2 .tit{
+        font-size: 30px;
+    }
+
+
+
+
+    /* client media end */
+
+
+
 }
 
